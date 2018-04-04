@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(243, 243, 243);
+  margin-bottom: 10%;
+  padding-bottom: 10%;
+}
+
+h1, h3 {
+  text-align: center;
+  color: #9dc6d1;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+h1 {
+  font-family: 'Avenir-Light';
+  font-size: 4em;
+  color: rgb(252, 252, 252);
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Avenir-Book';
+  font-size: 2em;
+  color: rgb(252, 252, 252);
+  font-weight: 400;
+	margin-bottom: 8%;
+}
+
+h4 {
+  font-family: 'Avenir-Book';
+  font-size: 2.2em;
+  text-align: center;
+  color: rgb(252, 252, 252);
+	text-decoration: underline;
+}
+
+p {
+  font-size: 1.8em;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+	font-family: 'Avenir-Book';
+	font-weight: 500;
+}
+
+#slides {
+  display: inline-block;
+  float: right;
+  margin-right: 15%;
+}
+
+#technologies {
+  display: inline-block;
+  margin-left: 15%;
+  float: left;
+  border: 5px solid #9dc6d1;
+	box-sizing: border-box;
+  width: 420px;
+  height: 710px;
+  padding-top: 10px;
+	background-color: #9dc6d1;
+	border-radius: 1px;
+}
+
+#header {
+  margin-top: 0;
+  top: 0;
+  background-color: #9dc6d1;
+  padding-bottom: 2%;
+  margin-bottom: 3%;
+	background: linear-gradient(to bottom, rgba(157,198,209,1) 0%,rgba(157,198,209,0) 100%);
+}
+
+
+
+.slide-show .ss-indicators>div>span.ss-active {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.slide-show .ss-indicators>div>span {
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+}
+
+polyline {
+  fill: rgba(157, 198, 209, 0.6);
+}
+
+/* .ss-images-size {
+	border: 10px solid rgb(187, 187, 187);
+} */
