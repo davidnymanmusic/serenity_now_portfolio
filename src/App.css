@@ -1,7 +1,13 @@
 body {
   background-color: rgb(243, 243, 243);
-  margin-bottom: 10%;
+  margin-bottom: 20%;
   padding-bottom: 10%;
+  padding-top: 0;
+}
+
+html{
+	margin-bottom: 30%;
+	padding-top: 0;
 }
 
 h1, h3 {
@@ -11,6 +17,7 @@ h1, h3 {
 
 h3 {
   margin-top: 0;
+	margin-bottom: 10%;
 }
 
 h1 {
@@ -27,7 +34,7 @@ h3 {
   font-size: 2em;
   color: rgb(252, 252, 252);
   font-weight: 400;
-	margin-bottom: 8%;
+	margin-bottom: 3%;
 }
 
 h4 {
@@ -36,14 +43,16 @@ h4 {
   text-align: center;
   color: rgb(252, 252, 252);
 	text-decoration: underline;
+	  font-weight: 400;
 }
 
 p {
   font-size: 1.8em;
   color: rgba(255, 255, 255, 0.8);
-  text-align: center;
+  text-align: left;
 	font-family: 'Avenir-Book';
 	font-weight: 500;
+	margin-left: 40px;
 }
 
 #slides {
@@ -59,7 +68,7 @@ p {
   border: 5px solid #9dc6d1;
 	box-sizing: border-box;
   width: 420px;
-  height: 710px;
+  height: 730px;
   padding-top: 10px;
 	background-color: #9dc6d1;
 	border-radius: 1px;
@@ -70,7 +79,7 @@ p {
   top: 0;
   background-color: #9dc6d1;
   padding-bottom: 2%;
-  margin-bottom: 3%;
+  margin-bottom: 0;
 	background: linear-gradient(to bottom, rgba(157,198,209,1) 0%,rgba(157,198,209,0) 100%);
 }
 
@@ -86,6 +95,44 @@ p {
 
 polyline {
   fill: rgba(157, 198, 209, 0.6);
+}
+
+.logos {
+	height: 50px;
+	width: 50px;
+	margin: 0;
+	display: inline-block;
+	float: right;
+	transform: translateX(-40px);
+	/* filter: opacity(.9) grayscale(100%) contrast(1) brightness(1.1) ; */
+}
+#goog {
+	height: 42px;
+	width: 42px;
+	margin: 0;
+	display: inline-block;
+	float: right;
+	transform: translateX(-40px);
+	/* filter: opacity(.9) grayscale(100%) contrast(1) brightness(1.1) ; */
+}
+
+#info{
+	color: #9dc6d1;
+	text-align: center;
+	font-size: 2em;
+}
+#footer {
+    position: sticky;
+    bottom: 0;
+    border: 3px dashed black;
+    background-color: white;
+    opacity: .5;
+    padding: 1%;
+		height: 50px;
+}
+
+.daZGjV {
+	display: block;
 }
 
 /* .ss-images-size {
