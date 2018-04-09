@@ -160,6 +160,7 @@ polyline {
   font-size: 2em;
 }
 
+
 #footer {
   position: sticky;
   bottom: 0;
@@ -182,7 +183,7 @@ polyline {
   .mobile-images {
     display: none;
   }
-  #screenshot {
+  h6{
     display: none;
   }
 }
