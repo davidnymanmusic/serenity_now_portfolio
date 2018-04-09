@@ -14,12 +14,14 @@ class App extends Component {
 					<h3>Meditation, Music, and Reflection</h3>
 				</div>
 				<div id='technologies'>
-					<h3>Galvanize Capstone</h3>
+					<img id='galvanize' src={'https://i.imgur.com/GYhKbi6.png'} />
 					<h3>David Nyman</h3>
+					<h3>Capstone</h3>
 					<h4>Technologies</h4>
 					<img
 						className='logos'
 						src={'https://cdn.worldvectorlogo.com/logos/react.svg'}
+						id={'react'}
 					/>
 					<Tooltip
 						background={'#fff'}
@@ -45,7 +47,7 @@ class App extends Component {
 						radius={2}
 						fontSize={'22px'}
 						padding={15}
-						fadeEasing={"ease-in-out"}
+						fadeEasing={'ease-in-out'}
 						content='Tools for Audio'>
 						<p>Expo SDK</p>
 					</Tooltip>
@@ -110,7 +112,14 @@ class App extends Component {
 				<div id='slides'>
 					<Slides />
 				</div>
-				<div id='info' />
+				<div className='mobile'>
+					<h6>Screenshots</h6>
+
+					<img className='mobile-images' src={				'https://i.imgur.com/MrnRZx0.png'}></img>
+					<img className='mobile-images'src={'https://i.imgur.com/bSosMmh.png'}></img>
+					<img className='mobile-images'src={'https://i.imgur.com/fq1aBGy.png'}></img>
+
+				</div>
 			</div>
 		);
 	}
