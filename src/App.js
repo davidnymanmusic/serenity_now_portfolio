@@ -13,6 +13,7 @@ class App extends Component {
 					<h1>Serenity Now</h1>
 					<h3>Meditation, Music, and Reflection</h3>
 				</div>
+
 				<div id='technologies'>
 					<img id='galvanize' src={'https://i.imgur.com/GYhKbi6.png'} />
 					<h3>David Nyman</h3>
@@ -111,6 +112,10 @@ class App extends Component {
 				</div>
 				<div id='slides'>
 					<Slides />
+				</div>
+				<div id='download'>
+				<img id='qr' src={'https://i.imgur.com/gcUOivO.png'}></img>
+				<img id='app' src={'https://www.silverdalebc.com/wp-content/uploads/2018/02/itunes-app-store-logo.png'}></img>
 				</div>
 				<div className='mobile'>
 					<h6>Screenshots</h6>
